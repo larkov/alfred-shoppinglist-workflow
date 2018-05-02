@@ -257,7 +257,9 @@ print query</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Workflow to interact with https://shop.kovanen.se/</string>
+	<string>Workflow to interact with https://shop.kovanen.se/
+
+Requires httparty and activesupport ruby gems.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1D426D41-3D67-4433-8D85-0DADED914288</key>
@@ -313,7 +315,7 @@ print query</string>
 		<string>shop_token</string>
 	</array>
 	<key>version</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>webaddress</key>
 	<string>http://kovanen.se/</string>
 </dict>
