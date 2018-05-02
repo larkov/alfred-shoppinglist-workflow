@@ -1,4 +1,4 @@
-# alfred-shoppinglist-workflow
+# <img src="src/icon.png" style="width: 25px" title="shopping cart" /> alfred-shoppinglist-workflow
 Alfred3 workflow to interact with [shop.kovanen.se](https://shop.kovanen.se).
 
 ## Requirements
