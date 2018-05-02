@@ -27,14 +27,14 @@ when "add"
   resp = JSON.parse(response.body)
 
   if resp["success"]
-    puts "Added #{quantity} #{item} #{item.encoding}"
+    puts resp["message"]
   else
     puts "Something failed."
   end
 else
   item = query[0].strip
   quantity = if query[1] then query[1].strip else "" end
-  out["items"].push({"type" => "default", "title" => "#{item} #{item.encoding}", "subtitle" => "Quantity: #{quantity} List: Ospecifierad", "arg" => "add,#{item},#{quantity}" })
+  out["items"].push({"type" => "default", "title" => "#{item}", "subtitle" => "Quantity: #{quantity} List: Ospecifierad", "arg" => "add,#{item},#{quantity}" })
 
   puts out.to_json
 end

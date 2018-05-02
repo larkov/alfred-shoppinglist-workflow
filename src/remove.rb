@@ -22,7 +22,7 @@ when "remove"
   resp = JSON.parse(response.body)
 
   if resp["success"]
-    puts "Removed #{itemid}"
+    puts resp["message"]
   else
     puts "Something failed."
   end
